@@ -37,7 +37,3 @@ Tài liệu được sắp xếp theo hành trình sử dụng. Bạn có thể 
 * [**Thông báo**](thong-bao.md): Theo dõi các thông báo từ hệ thống (kết quả bài kiểm tra, phản hồi thảo luận…).
 * [**Danh sách chứng chỉ**](danh-sach-chung-chi.md): Xem, chia sẻ và tải các chứng chỉ bạn đã đạt được.
 * [**Tài khoản**](tai-khoan/): Quản lý thông tin cá nhân và bảo mật tài khoản.
-
-{% hint style="info" %}
-Nếu không tìm thấy khóa học hoặc gặp sự cố khi sử dụng, vui lòng liên hệ đội ngũ hỗ trợ của UpBase để được trợ giúp.
-{% endhint %}
