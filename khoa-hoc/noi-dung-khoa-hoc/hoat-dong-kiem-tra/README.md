@@ -95,7 +95,6 @@ Câu hỏi có thể hiển thị dưới **2 bố cục**:
 
 <figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
-* **Exhibit/ Time Value Tables:** Hiển thị tài liệu/ gợi ý hỗ trợ làm bài (nhãn hiển thị tùy theo cấu hình của khóa học)
 * **Requirement:** Các ý nhỏ hơn của một câu hỏi tự luận
 * **Confirm Answer:** Hiển thị đáp án đúng và lời giải ngay lập tức với loại bài hiển thị đáp án ngay sau khi làm câu hỏi đó
 * **Next / < >:** Chuyển sang câu hỏi kế tiếp hoặc câu trước đó
@@ -124,20 +123,7 @@ Các câu hỏi đã trả lời được bôi màu đậm hơn để phân bi�
 
 * Tự luận (trả lời từng Requirement vào Word/Excel, có thể yêu cầu Choose File to Upload để tải bài làm từ thiết bị).
 
-## IV. Answer Template (Word/ Excel)
-
-Một số câu hỏi (tự luận, Requirement) có sẵn Answer Template, học viên làm trực tiếp vào template Word/Excel đã cho. Cơ chế này giống nhau ở cả Test, Quiz và Case Study:
-
-* Show Answer Template: nhấn để xem lại file template gốc
-* Reset to Answer Template: đặt lại về template ban đầu của đề bài, hệ thống hiển thị popup cảnh báo có thể mất bài làm hiện tại
-  * Chọn Confirm để quay lại template gốc, toàn bộ các bước đã làm của câu hỏi đó sẽ bị xóa.
-  * Chọn Keep Doing để giữ nguyên bài làm hiện tại.
-
-{% hint style="warning" %}
-Thao tác **Reset to Answer Template > Confirm** không thể hoàn tác, chỉ reset khi thực sự cần làm lại từ đầu.
-{% endhint %}
-
-## V. Lưu ý & Quy tắc nghiệp vụ
+## IV. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -152,5 +138,4 @@ Thao tác **Reset to Answer Template > Confirm** không thể hoàn tác, chỉ 
 
 1. Dùng **Flag to Review** để gắn cờ câu hỏi cần xem lại, sau đó lọc nhanh theo nhóm đã gắn cờ.
 2. Tận dụng **Scratch Pad**, **Calculator** và **Exhibit/ Time Value Tables** trong quá trình làm bài.
-3. Với câu hỏi có Answer Template, dùng **Show Answer Template** để đối chiếu template gốc mà không làm mất bài làm hiện tại.
 {% endhint %}

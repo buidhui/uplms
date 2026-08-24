@@ -115,7 +115,7 @@ Chọn **<** / **>** để chuyển giữa các câu hỏi.
 
 Tính năng này giúp lưu lại tiến trình làm bài khi quá trình làm bị gián đoạn (tải lại trang, thoát giao diện, mất kết nối mạng tạm thời…), giúp học viên tiếp tục từ thời điểm trước đó mà không mất dữ liệu.
 
-Áp dụng cho: **Chapter Test, Midterm Test, Final Test.**
+Áp dụng cho: **Section Test, Midterm Test, Final Test.**
 
 {% stepper %}
 {% step %}
@@ -151,13 +151,12 @@ Nếu đồng hồ đếm ngược trên hộp thoại chạy về 00:00:00, h�
 ### Lưu ý quan trọng
 
 1. Khi hết thời gian làm bài, hệ thống **tự động nộp bài** dựa trên các câu trả lời học viên đã làm, kể cả khi chưa chọn **Finish** (áp dụng cho các bài Test).
-2. Tính năng tiếp tục bài bị gián đoạn chỉ áp dụng cho Chapter Test, Midterm Test, Final Test.
+2. Tính năng tiếp tục bài bị gián đoạn chỉ áp dụng cho Section Test, Midterm Test, Final Test.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                                   | Nguyên nhân                                    | Cách xử lý                                                                           |
-| -------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Bài thi bị nộp khi chưa hoàn thành                 | Hết thời gian làm bài, hệ thống tự động nộp    | Quản lý thời gian, theo dõi đồng hồ đếm ngược trên giao diện.                        |
-| Mất bài làm sau khi tải lại trang/ thoát giao diện | Quá trình làm bài bị gián đoạn                 | Mở lại bài kiểm tra và chọn **Continue/ Continue the previous attempt** để tiếp tục  |
-| Mất toàn bộ bước đã làm của câu hỏi                | Đã chọn **Reset to Answer Template > Confirm** | Thao tác reset không thể hoàn tác, chỉ reset khi thực sự cần làm lại từ template gốc |
+| Lỗi / Tình huống                                   | Nguyên nhân                                 | Cách xử lý                                                                          |
+| -------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Bài thi bị nộp khi chưa hoàn thành                 | Hết thời gian làm bài, hệ thống tự động nộp | Quản lý thời gian, theo dõi đồng hồ đếm ngược trên giao diện.                       |
+| Mất bài làm sau khi tải lại trang/ thoát giao diện | Quá trình làm bài bị gián đoạn              | Mở lại bài kiểm tra và chọn **Continue/ Continue the previous attempt** để tiếp tục |

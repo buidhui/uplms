@@ -58,10 +58,6 @@ Giao diện Case Study được chia làm 2 phần:
 * **Bên phải:** danh sách câu hỏi được sắp xếp lần lượt từ trên xuống dưới.
 
 <figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Với câu hỏi có sẵn **Answer Template**, học viên làm trực tiếp vào template Word/ Excel. Nếu câu hỏi có nhiều Requirement, các nút **Show/ Reset Answer Template** hiển thị theo từng Requirement. Xem cách dùng tại [#iv.-answer-template-word-excel](./#iv.-answer-template-word-excel "mention").
-{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -93,12 +89,10 @@ Hệ thống sẽ cảnh báo nếu bạn chưa hoàn thành hết số câu h�
 ### Lưu ý quan trọng
 
 1. Case Study chỉ có **1 lượt làm duy nhất** và **không tính điểm**.
-2. Khi **Reset to Answer Template**, toàn bộ bước làm trước đó của câu hỏi sẽ bị xóa.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                    | Nguyên nhân                                    | Cách xử lý                                                                           |
-| ----------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Không nộp lại được Case Study       | Case Study chỉ cho phép 1 lượt làm duy nhất    | Cân nhắc kỹ trước khi nộp; liên hệ đội vận hành nếu cần hỗ trợ                       |
-| Mất toàn bộ bước đã làm của câu hỏi | Đã chọn **Reset to Answer Template > Confirm** | Thao tác reset không thể hoàn tác, chỉ reset khi thực sự cần làm lại từ template gốc |
+| Lỗi / Tình huống              | Nguyên nhân                                 | Cách xử lý                                                     |
+| ----------------------------- | ------------------------------------------- | -------------------------------------------------------------- |
+| Không nộp lại được Case Study | Case Study chỉ cho phép 1 lượt làm duy nhất | Cân nhắc kỹ trước khi nộp; liên hệ đội vận hành nếu cần hỗ trợ |

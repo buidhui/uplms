@@ -50,8 +50,6 @@ Tại hoạt động học tập có chứa câu hỏi bổ trợ, học viên t
 
 {% hint style="info" %}
 Chọn **<** / **>** để chuyển giữa các câu hỏi.
-
-Với câu hỏi có sẵn **Answer Template**, học viên làm trực tiếp vào template Word/Excel. Xem cách dùng **Show/ Reset Answer Template** tại [#iv.-answer-template-word-excel](./#iv.-answer-template-word-excel "mention").
 {% endhint %}
 {% endstep %}
 
@@ -100,7 +98,6 @@ Chọn vào tên câu hỏi để xem đáp án chi tiết và lời giải.
 ### Mẹo sử dụng
 
 1. Với loại Quiz hiển thị đáp án ngay, dùng **Submit & View Answer** để học và sửa sai ngay trong quá trình làm. Lưu ý: sau khi đã xem đáp án thì không chọn lại được nữa.
-2. Với câu hỏi có Answer Template, dùng **Show Answer Template** để đối chiếu template gốc mà không mất bài làm hiện tại.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
@@ -108,4 +105,3 @@ Chọn vào tên câu hỏi để xem đáp án chi tiết và lời giải.
 | Lỗi / Tình huống                        | Nguyên nhân                                     | Cách xử lý                                                                                                           |
 | --------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Không thấy nút **Submit & View Answer** | Quiz thuộc loại hiển thị đáp án sau khi nộp bài | Chọn **Next Question** để chuyển câu, làm hết toàn bộ câu hỏi và chọn **Submit** để xem đáp án sau khi nộp toàn bài. |
-| Mất toàn bộ bước đã làm của câu hỏi     | Đã chọn **Reset to Answer Template > Confirm**  | Thao tác reset không thể hoàn tác, chỉ reset khi thực sự cần làm lại từ template gốc                                 |
