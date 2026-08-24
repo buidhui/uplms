@@ -59,7 +59,7 @@ Sau khi đăng nhập hệ thống thành công, chọn **Certificate** tại me
 
 Chọn vào tên chứng chỉ hoặc bấm vào icon xem tại cột action để xem chi tiết chứng chỉ.
 
-<figure><img src=".gitbook/assets/Certificate detail.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Certificate Detail.png" alt=""><figcaption></figcaption></figure>
 
 * Chọn Share with Linkedin để chia sẻ chứng chỉ lên mạng xã hội Linkedin.
 * Chọn biểu tượng Copy để sao chép đường link của chứng chỉ.

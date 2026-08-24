@@ -43,7 +43,7 @@ Tài liệu lớp học hiển thị dưới 2 dạng:
 
 * Dạng lưới (Grid Layout):
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

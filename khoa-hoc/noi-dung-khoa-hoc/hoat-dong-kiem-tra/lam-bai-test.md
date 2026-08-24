@@ -26,7 +26,7 @@ layout:
 {% hint style="info" %}
 **Dành cho:** Học viên
 
-**Đường dẫn:** Màn hình My Course → Course Detail → Chapter Test/ Midterm Test/ Final Test
+**Đường dẫn:** Màn hình My Course → Course Detail → Section Test/ Midterm Test/ Final Test
 {% endhint %}
 
 {% hint style="warning" %}
