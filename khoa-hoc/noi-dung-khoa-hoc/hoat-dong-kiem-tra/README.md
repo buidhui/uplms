@@ -27,7 +27,7 @@ layout:
 {% hint style="info" %}
 **Dành cho:** Học viên
 
-**Đường dẫn:** My Course → Course Detail → Quiz/ Chapter Test/ Midterm Test/ Final Test
+**Đường dẫn:** My Course → Course Detail → Section Test/ Midterm Test/ Final Test
 {% endhint %}
 
 {% hint style="info" %}
@@ -50,7 +50,7 @@ Hệ thống có 3 dạng bài kiểm tra, mỗi dạng có cách làm và quy t
 
 | Dạng bài       | Mô tả ngắn                                                                     | Hướng dẫn                                        |
 | -------------- | ------------------------------------------------------------------------------ | ------------------------------------------------ |
-| **Test**       | Bài kiểm tra chính thức, gồm Chapter/Module Test, Midterm Test, Final Test.    | [lam-bai-test.md](lam-bai-test.md "mention")     |
+| **Test**       | Bài kiểm tra chính thức, gồm Section Test, Midterm Test, Final Test.           | [lam-bai-test.md](lam-bai-test.md "mention")     |
 | **Quiz**       | Câu hỏi bổ trợ nằm trong hoạt động học tập (Activity), giúp củng cố kiến thức. | [lam-bai-quiz.md](lam-bai-quiz.md "mention")     |
 | **Case Study** | Bài tập tình huống, chỉ có **1 lượt làm duy nhất** và **không tính điểm**.     | [lam-case-study.md](lam-case-study.md "mention") |
 
