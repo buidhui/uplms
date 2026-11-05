@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: UpLMS
+  structure:
+    - type: space
+      key: space-uplms
+      title: UpLMS
+      path: uplms
+      default: true
+      content:
+        directory: ./
+        language: vi
