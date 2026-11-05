@@ -97,7 +97,7 @@ Chọn một trong năm khung: **All time** (mặc định) · **This week** · 
 
 <details>
 
-<summary>Đợt thi đua (Campaign)”</summary>
+<summary>Đợt thi đua (Campaign)</summary>
 
 Campaign là đợt thi đua có thời hạn do tổ chức mở, ví dụ "Thi đua học tập tháng 11". Mỗi campaign chỉ tính điểm cho một số loại hành động tổ chức chọn, và có kết quả chốt cố định khi kết thúc để trao thưởng.
 
