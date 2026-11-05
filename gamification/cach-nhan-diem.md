@@ -47,9 +47,9 @@ layout:
 
 {% stepper %}
 {% step %}
-**Xem bảng tính điểm**
+**Xem cách nhận điểm**
 
-Trên màn Gamification, bấm ô **Points**. Panel **How to collect points?** mở ra từ cạnh phải, mỗi dòng là một hành động kèm số điểm tổ chức đang áp dụng.
+Trên màn hình **Gamification**, chọn ô Points để mở bảng thông tin **How to collect points?** bên phải. Mỗi dòng hiển thị một hành động và số điểm thưởng tương ứng.
 
 <figure><img src="../.gitbook/assets/gamification-how-to-collect-points.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,21 +58,21 @@ Trên màn Gamification, bấm ô **Points**. Panel **How to collect points?** m
 | Vào hệ thống mỗi ngày | Lần đầu tiên bạn mở UpLMS trong ngày. Điểm tăng theo chuỗi ngày liên tiếp, xem bước kế tiếp |
 | Hoàn thành hoạt động học | Khi hoạt động chuyển sang trạng thái hoàn thành. Hoạt động có video phải xem đủ 80% thời lượng. Hoạt động chỉ có chữ hoặc ảnh hoàn thành ngay khi mở |
 | Hoàn thành khoá | Khi bạn hoàn thành toàn bộ khoá học |
-| Qua bài Test | Khi bài Test đạt điểm qua (**Pass Point**). Bài Test chấm tay được cộng điểm vào lúc người chấm chấm đạt |
+| Đạt bài Test | Khi bài Test đạt mức điểm yêu cầu (**Pass Point**). Với bài chấm thủ công, điểm được cộng khi kết quả được xác nhận là đạt. |
 | Đạt huy hiệu | Mỗi lần bạn mở khoá một huy hiệu mới |
 
-Hành động nào tổ chức đang tắt thì không có dòng đó trong panel.
+Các hành động nhận điểm đang bị tổ chức tắt sẽ không hiển thị trong bảng thông tin.
 {% endstep %}
 
 {% step %}
-**Giữ chuỗi ngày vào học**
+**Duy trì chuỗi ngày truy cập (Streaks)**
 
 Bạn không cần bấm nút check-in. Hệ thống tự ghi nhận khi bạn mở UpLMS lần đầu trong ngày, kể cả khi bạn vẫn đang đăng nhập từ hôm trước.
 
-* Ngày đầu tiên của chuỗi nhận mức điểm nền. Mỗi ngày liên tiếp sau đó được thêm `5` điểm, tối đa `40` điểm một ngày. Ví dụ với điểm nền `10`: `10 · 15 · 20 · 25 · 30 · 35 · 40`, từ ngày thứ 7 trở đi mỗi ngày đều được `40`.
+* Ngày đầu tiên của chuỗi nhận mức điểm khởi đầu (điểm nền). Mỗi ngày liên tiếp sau đó được thêm `5` điểm, tối đa `40` điểm một ngày. Ví dụ với điểm nền `10`: `10 · 15 · 20 · 25 · 30 · 35 · 40`, từ ngày thứ 7 trở đi mỗi ngày đều được `40`.
 * Vào nhiều lần trong cùng một ngày chỉ tính một lần.
-* Bỏ trọn một ngày không vào thì chuỗi về `0`. Lần vào kế tiếp bắt đầu chuỗi mới từ mức điểm nền. Điểm đã nhận trong chuỗi cũ vẫn giữ nguyên.
-* Ngày tính theo giờ Việt Nam (UTC+7). Thứ Bảy, Chủ Nhật và ngày nghỉ cũng tính, nên nghỉ trọn những ngày này sẽ làm đứt chuỗi.
+* Không truy cập trong trọn một ngày thì chuỗi về `0`. Lần vào kế tiếp bắt đầu chuỗi mới từ mức điểm nền. Điểm đã nhận trong chuỗi cũ vẫn giữ nguyên.
+* Ngày tính theo giờ Việt Nam (UTC+7). Thứ Bảy, Chủ Nhật và ngày nghỉ cũng tính, nên nghỉ trọn những ngày này sẽ làm chuỗi bị gián đoạn (đứt chuỗi).
 {% endstep %}
 
 {% step %}
@@ -82,22 +82,22 @@ Khi bạn nhận điểm, đạt huy hiệu hoặc lên hạng trong lúc đang 
 
 <figure><img src="../.gitbook/assets/gamification-thong-bao-thanh-tich.png" alt=""><figcaption></figcaption></figure>
 
-* Mỗi thành tích là một thẻ riêng, xếp chồng theo thứ tự xảy ra. Ví dụ qua bài Test cuối khoá có thể sinh ra bốn thẻ: điểm bài Test, điểm hoàn thành khoá, huy hiệu mới và lên hạng.
+* Mỗi thành tích là một thẻ riêng, xếp chồng theo thứ tự xảy ra. Ví dụ qua bài Test cuối khoá có thể hiển thị bốn thẻ thông báo: điểm bài Test, điểm hoàn thành khoá, huy hiệu mới và lên hạng.
 * Điểm thưởng của huy hiệu nằm chung trong thẻ huy hiệu, ví dụ `You unlocked the Check-in Grower badge by visiting 8 days · +50 pts`.
 * Lên nhiều hạng cùng lúc thì chỉ có một thẻ cho hạng cao nhất vừa đạt.
 * Thông báo không gửi qua email. Nếu bạn không mở UpLMS lúc thành tích phát sinh (ví dụ bài Test chấm tay được chấm sau vài ngày), bạn sẽ không nhận thẻ, nhưng thành tích vẫn được ghi và tra được trong lịch sử.
 {% endstep %}
 
 {% step %}
-**Tra lịch sử ghi nhận**
+**Xem lịch sử thành tích ghi nhận**
 
 Trong panel **How to collect points?**, bấm **Achievement History** ở cuối panel.
 
 <figure><img src="../.gitbook/assets/gamification-achievement-history.png" alt=""><figcaption></figcaption></figure>
 
-* Mỗi dòng gồm thời điểm và một câu nêu rõ bạn nhận được gì, từ hoạt động, khoá hay bài Test nào.
+* Mỗi dòng hiển thị thời điểm, thành tích được ghi nhận và hoạt động, khóa học hoặc bài Test liên quan (nếu có).
 * Lịch sử gồm ba loại sự kiện: nhận điểm, đạt huy hiệu và lên hạng. Mới nhất ở trên cùng, cuộn xuống để xem các lần trước.
-* Lịch sử giữ toàn bộ từ ngày đầu, không ai sửa hay xoá được.
+* Lịch sử giữ toàn bộ từ ngày đầu, bạn có thể xem lịch sử nhưng không thể chỉnh sửa hoặc xóa các bản ghi.
 {% endstep %}
 {% endstepper %}
 
