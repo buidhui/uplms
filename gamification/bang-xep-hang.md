@@ -47,7 +47,7 @@ layout:
 
 <details>
 
-<summary>Bảng xếp hạng</summary>
+<summary>Bảng xếp hạng (Leaderboard)</summary>
 
 {% stepper %}
 {% step %}
@@ -99,7 +99,7 @@ Chọn một trong năm khung: **All time** (mặc định) · **This week** · 
 
 <summary>Đợt thi đua (Campaign)</summary>
 
-Campaign là đợt thi đua có thời hạn do tổ chức mở, ví dụ "Thi đua học tập tháng 11". Mỗi campaign chỉ tính điểm cho một số loại hành động tổ chức chọn, và có kết quả chốt cố định khi kết thúc để trao thưởng.
+**Campaign** là đợt thi đua có thời hạn do tổ chức mở, ví dụ *"Thi đua học tập tháng 11"*. Mỗi campaign chỉ tính điểm cho một số loại hành động tổ chức chọn, và có kết quả chốt cố định khi kết thúc để trao thưởng.
 
 {% stepper %}
 {% step %}
@@ -109,7 +109,7 @@ Trên bảng xếp hạng, mở danh sách campaign cạnh bộ chọn khung th�
 
 {% step %}
 **Xem bảng của campaign**
-<figure><img src="../.gitbook/assets/gamification-campaign-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gamification-campaign.png" alt=""><figcaption></figcaption></figure>
 Campaign hiện tên, khoảng thời gian và các loại hành động được tính điểm. Mỗi campaign có tối đa ba bảng:
 
 * **Points**: chỉ cộng điểm từ các loại hành động campaign chọn, trong khoảng thời gian của campaign.

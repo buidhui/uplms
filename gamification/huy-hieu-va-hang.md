@@ -50,7 +50,7 @@ layout:
 
 <details>
 
-<summary>Huy hiệu</summary>
+<summary>Huy hiệu (Badges) </summary>
 
 {% stepper %}
 {% step %}
@@ -86,7 +86,7 @@ Mỗi loại có tám mốc cố định:
 
 <details>
 
-<summary>Hạng</summary>
+<summary>Hạng (Level)</summary>
 
 {% stepper %}
 {% step %}
@@ -101,7 +101,9 @@ Mọi học viên bắt đầu ở `Level 1`. Hạng là một con số, không 
 **Xem cách lên hạng**
 <figure><img src="../.gitbook/assets/gamification-how-to-level-up.png" alt="Bảng How to level up? hiển thị tiến độ 210/1.500 điểm và yêu cầu tích lũy thêm 1.290 điểm để đạt Level 20"><figcaption><p>Xem tiến độ lên hạng: trong ví dụ này, học viên cần tích lũy thêm 1.290 điểm để đạt Level 20.</p></figcaption></figure>
 
-Chọn ô **Level** để mở bảng thông tin **How to level up?**, xem tiến độ và số điểm cần để lên hạng tiếp theo.”
+Chọn ô **Level** để mở bảng thông tin **How to level up?**, xem tiến độ và số điểm cần để lên hạng tiếp theo.
+
+Để biết cách nhận điểm, bấm **How to collect points?**, chi tiết xem tại [Cách nhận điểm](cach-nhan-diem.md).
 
 Cách lên hạng:
 
